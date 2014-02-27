@@ -1,3 +1,3 @@
 atcheck_sim900-arduino-uno
 ==========================
-Interactive commans whit ardduino uno and sim900 modem
+Interactive commands with arduino uno and sim900 modem
