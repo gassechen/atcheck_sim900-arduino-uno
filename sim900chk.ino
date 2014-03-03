@@ -11,6 +11,9 @@ modem_check();
 
 }
 
+void loop()
+{
+}
 
 void ShowSerialData()
 {
@@ -43,7 +46,7 @@ if (Serial.available() > 0) {
                   delayMicroseconds(500);
                 }//end while
                 buffer[i++]='\0';
-                //Serial.print(buffer);
+                Serial.print(buffer);
               
               
               mySerial.println(buffer);
